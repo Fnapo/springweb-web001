@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- th del motor de plantillas -->
+    <title>Mi Web</title>
+    <!-- CSS de Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Detalles del Empleado</h1>
+      <hr />
+      <ul>
+        <li>
+          <strong>Nombre:</strong>
+          <span th:text="${empleado.nombre}">Nombre del Empleado</span>
+        </li>
+        <li>
+          <strong>Puesto:</strong>
+          <span th:text="${empleado.puesto}">Puesto del Empleado</span>
+        </li>
+        <li>
+          <strong>Salario:</strong>
+          <span th:text="${empleado.salario}">Salario del Empleado</span>
+        </li>
+        <li>
+          <strong>ID:</strong>
+          <span th:text="${empleado.id}">Id del Empleado</span>
+        </li>
+      </ul>
+    </div>
+    <!-- JS de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
