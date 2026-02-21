@@ -1,0 +1,19 @@
+{
+  "properties": [
+    {
+      "name": "app.mensaje",
+      "type": "java.lang.String",
+      "description": "A description for 'app.mensaje'"
+    },
+    {
+      "name": "app.booleano",
+      "type": "java.lang.String",
+      "description": "A description for 'app.booleano'"
+    },
+    {
+      "name": "app.numero",
+      "type": "java.lang.String",
+      "description": "A description for 'app.numero'"
+    }
+  ]
+}

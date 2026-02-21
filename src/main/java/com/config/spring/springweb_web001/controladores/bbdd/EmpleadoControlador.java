@@ -24,7 +24,7 @@ public class EmpleadoControlador {
   @ModelAttribute("empleados")
   // Sirve para agregar un atributo común a todas las vistas manejadas por este
   // controlador
-  public Iterable<Empleado> empleados() {
+  public Iterable<Empleado> ListaEmpleados() {
     return java.util.List.of(
         new Empleado("Juan Pérez", "Calle Principal 123", "Desarrollador", 50000.0, 123),
         new Empleado("María García", "Avenida Central 456", "Diseñadora", 45000.0, 456),
